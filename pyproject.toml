@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "api-cache"
+version = "0.1.0"
+description = ""
+authors = ["ppinzon <pinzonpablo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.9"
+fastapi = "^0.115.11"
+uvicorn = "^0.34.0"
+redis = "^5.2.1"
+cachetools = "^5.5.2"
+httpx = "^0.28.1"
+asyncache = "^0.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
